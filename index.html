@@ -1,9 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Camp Site</title>
 </head>
 <body>
-
+  <header>
+    <h1>A Campy Little Site</h1>
+    <h2>What to bring and where to go on your next camping adventure</h2>
+  </header>
+  <section>
+    <div>
+      <img src="images/friends.png" alt='Camping with friends is always more fun!'>
+    </div>
+    <article>
+      <h3>Essential Gear</h3>
+      <p>Having the right gear makes a <b>huge</b> difference on your camping trip. Over time you'll discover what works best for you. In the meantime, here are some of my tips and recommendations for camping gear.</p>
+      <ul>
+        <li>A three-season sleeping bag</li>
+        <li>The smallest tent that meets your needs</li>
+        <li>Access to 3 gallons of water a day</li>
+        <li>Lots of versatile layers</li>
+        <li>A buddy</li>
+      </ul>
+      <p>Remember to check your gear before you strike out and always assume you'll be in <em>extreme temperatures</em>. It's best to be over-prepared!</p>
+    </article>
+    <br>
+    <div>
+      <img src="images/tent.png" alt='Sleep under the stars'>
+    </div>
+    <article>
+      <h3>Best Camp Sites</h3>
+      <p>Luckily the variety of camp site in the U.S. is as numerous as personal preferences there are for camp sites. Here are links to some of my favorites:</p>
+      <ul>
+        <li><a href='http://www.bigsurcalifornia.org/'>Big Sur</a></li>
+        <li><a href='https://www.nps.gov/yose/index.htm'>Yosemite National Park</a></li>
+        <li><a href='http://visitadirondacks.com/stay/campgrounds'>Adirondacks</a></li>
+        <li><a href='https://www.nps.gov/whsa/index.htm'>White Sands National Park</a></li>
+      </ul>
+    </article>
+  </section>
+  <aside>
+    <form action="thanks.html" method="POST">
+      <div>
+        <h4>Where do you love to camp?</h4>
+        <textarea name='suggestions' rows='5' cols='15'>Camp Site Suggestions</textarea>
+        <br>
+        <input type="submit">
+      </div>
+      <br>
+      <div>
+        <h4>What is your must-have?</h4>
+        <input type="checkbox" name="sunshower" value='1'>Sun Shower</option>
+        <br>
+        <input type="checkbox" name='bearcanister' value='2'>Bear Canister</option>
+        <br>
+        <input type="checkbox" name='rv' value='3'>An RV</option>
+        <br>
+        <input type="checkbox" name='pillow' value='3'>Your Favorite Pillow</option>
+        <br>
+        <input type='submit' value='submit'>
+      </div>
+    </form>
+  </aside>
 </body>
 </html>
