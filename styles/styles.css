@@ -16,7 +16,11 @@ a:visited {
 }
 
 .userinfo {
-
+  border-radius: 25px;
+  border: solid black;
+  padding: 15px;
+  margin: 5px;
+  max-width: 20%;
 }
 
 #layers{
