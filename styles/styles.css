@@ -1,1 +1,29 @@
-body {background:blue}
+* {
+  font-family: helvetica;
+}
+
+h1 { background-color: grey;
+
+}
+
+img {
+  border-radius: 25px;
+  border: solid black;
+}
+
+a:visited {
+  color: #4b2f00;
+}
+
+.userinfo {
+  border-radius: 25px;
+  border: solid black;
+  padding: 15px;
+  margin: 5px;
+  max-width: 20%;
+  background-image: url("sarahkcaplan.github.io/images/suggestions.png");
+}
+
+#layers{
+  font-variant: small-caps;
+}
