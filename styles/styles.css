@@ -23,13 +23,14 @@ a:visited {
   max-width: 20%;
   background-image: url("../images/light.png");
 
+
 }
 
 #layers{
   font-variant: small-caps;
 }
 
-@media (max-width: 300px) {
+@media (width: 400px) {
   .userinfo {
-    min-width: 40%;
+    margin: auto;
   }
