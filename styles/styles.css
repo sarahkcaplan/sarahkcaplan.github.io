@@ -2,8 +2,8 @@
   font-family: helvetica;
 }
 
-h1 { background-color: grey;
-
+h1 {
+  background-color: grey;
 }
 
 img {
@@ -21,9 +21,16 @@ a:visited {
   padding: 15px;
   margin: 5px;
   max-width: 20%;
-  background-image: url("sarahkcaplan.github.io/images/suggestions.png");
+  background-image: url("../images/light.png");
+
+
 }
 
 #layers{
   font-variant: small-caps;
 }
+
+@media (width: 400px) {
+  .userinfo {
+    margin: auto;
+  }
